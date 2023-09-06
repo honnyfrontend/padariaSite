@@ -1,0 +1,81 @@
+/* Reset CSS Intermediário */
+
+/* Redefinir margens e preenchimentos para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Redefinir a caixa-modelo para todos os elementos */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Definir um estilo de fonte padrão e tamanho de base */
+body {
+  font-family: 'Alata', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+  
+}
+
+/* Remover sublinhado de links */
+a {
+  text-decoration: none;
+  
+}
+
+/* Remover list-style de listas não ordenadas e ordenadas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remover margens padrão para listas e descrições */
+dl, dd, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir estilo de link padrão */
+a {
+  color: #007bff;
+}
+
+/* Remover decoração de listas não ordenadas aninhadas */
+ul ul {
+  list-style-type: none;
+}
+header{
+	font-size: 40px;
+	margin-bottom: 10%;
+	text-align: center;
+	color: white;
+	background-color: blue;
+}
+	
+div{
+	margin-top: 5%;
+	border: 1px solid gray;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
