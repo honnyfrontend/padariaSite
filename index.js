@@ -11,6 +11,8 @@ function slide(n){
 			segundo.setAttribute('class','um')
 		}
 		n --
-	},1000)
+	},3000)
 }
 slide(100)
+
+
